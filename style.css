@@ -16,4 +16,10 @@
     .container {
         @apply px-6 py-12 max-w-7xl mt-16 mx-auto lg:px-8 lg:mt-32;
     }
+    .gradient-hover-outer{
+        @apply p-[5px] bg-slate-200 hover:bg-gradient-to-br hover:from-red-300 hover:via-purple-300 hover:to-yellow-300
+    }
+    .gradient-hover-inner{
+       @apply bg-white group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 hover:to-yellow-50
+    }
 }
